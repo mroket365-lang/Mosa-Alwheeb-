@@ -1,0 +1,6 @@
+{
+  "name": "Phoenix Finance - تطبيق فينكس المالي",
+  "description": "An advanced financial accounting app with multi-account tracking, quick transfers, analytics charts, AI financial assistant, and complete Flutter (Dart) codebase export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
