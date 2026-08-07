@@ -1,4 +1,4 @@
-name: Build Android APK v3
+name: Build Android APK
 
 on:
   push:
@@ -8,8 +8,8 @@ on:
 
 jobs:
   build-android:
-    name: Build Android APK v3
-    runs-on: ubuntu-22.04
+    name: Build Android APK
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -19,6 +19,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci || npm install
